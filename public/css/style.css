@@ -1,0 +1,134 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family:candara, sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    width: 750px;
+    
+}
+
+.bodyDiv{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.logoDiv H1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: white; 
+    text-align: center;
+    
+}
+
+.logoDiv p{           
+    color: white;
+    text-align: center;
+}
+
+.cadastrarBnt{
+    font-family:candara, sans-serif;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 100%;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.cadastrarBnt:hover{
+    font-size: 20px;
+    border: none;
+    color: #5CA37F;
+    background: white;
+    cursor: pointer;
+    
+}
+
+.cadastrarBnt:active{            
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    margin: 0px;            
+    padding: 10px 0px;
+    color: #5CA37F;
+    text-align: center;
+    border-bottom: 5px solid rgb(45, 45, 45);
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin: 30px 30px 0px 30px;
+}
+
+.loginInput{  
+    margin-bottom: 10px;  
+    border: 3px solid #5CA3A3;
+    border-radius: 5px;
+    outline: none;            
+    background-color: #5ca3a37e;
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;    
+}
+
+.loginInput:focus{
+    background-color: #5ca3a32f;
+}
+
+.passInput{    
+    margin-bottom: 10px; 
+    border: 3px solid #5CA3A3;
+    border-radius: 5px;
+    outline: none;            
+    background-color: #5ca3a37e;
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;      
+}
+
+.passInput:focus{
+    background-color: #5ca3a32f;
+}
+
+.bntDiv{
+    display: flex;
+    justify-content: center;
+    margin: 40px 70px 0px 70px;              
+}
+
+.entrarBnt{
+    flex:1; 
+    padding: 3px; 
+    text-align: center;
+    background-color: #5CA37F;
+    border: 4px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;            
+}
+
+.entrarBnt:hover{
+    cursor: pointer;   
+    color: #5CA37F;
+    background: white;
+    border: 4px solid #5CA37F;                 
+}

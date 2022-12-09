@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .mainDiv{            
+            height: 100%;
+            width: 450px; 
+            border-bottom-left-radius: 50px;
+            background-color: white;
+            outline: 5px solid #5CA37F;
+            outline-offset: 5px;
+            margin-right: 15px;
+        }
+
+        .logoDiv{  
+            display: flex;
+            flex-direction: column;  
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;  
+            width: 250px;
+            background: linear-gradient(180deg, #5CA3A3, #5CA37F); 
+            border-top-right-radius: 50px;
+            outline: 5px solid #5CA3A3;
+            outline-offset: 5px;            
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="bodyDiv">                  
+        
+        <div class="container">                    
+            
+            <form method="post" action="/cadastro" class="mainDiv">   
+            
+                <div class="loginDiv">    
+                    <h1 class="text">Create Account</h1>    
+                    <div class="inputDiv">
+                        <label>Username:</label>
+                        <input type="text" name="user" class="loginInput">
+                    
+                        <label>Password:</label>
+                        <input type="password" name="password" class="passInput"> 
+                    
+                        <label>Confirm Password:</label>
+                        <input type="password" name="confPassword" class="passInput"> 
+                    </div>          
+                </div>        
+                    
+                <div class="bntDiv">    
+                    <button type="submit" class="entrarBnt">Submit</button>    
+                </div>         
+            </form> 
+            
+            <form action="http://localhost:9000" class="logoDiv">
+                <h1>Welcome Back!</h1>    
+                <p>Go to Login.</p>                        
+                <button type="submit" class="cadastrarBnt">SIGN IN</button>    
+                    
+            </form>
+        </div>    
+    </div>     
+</body>
+</html>
